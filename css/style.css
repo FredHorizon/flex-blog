@@ -1,0 +1,14 @@
+body {
+  font-family: Nunito;
+}
+
+.superinfo-bg {
+  background-color: aqua;
+}
+
+.superinfo {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
