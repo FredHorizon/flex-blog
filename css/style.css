@@ -25,20 +25,24 @@ img {
   max-width: 100%;
 }
 
-/* Exemplo do porque o border-box */
-/* p {
-  width: 100%;
-  background: #377ee9;
-  padding: 0 60px;
-} */
-
 .superinfo-bg {
-  background-color: aqua;
+  background-color: #122ab2;
+  color: rgb(251, 253, 255);
+}
+
+.superinfo a {
+  color: rgb(251, 253, 255);
 }
 
 .superinfo {
-  padding: 0px 20px;
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.superinfo p, .superinfo a {
+  margin: 0 10px 10px 10px;
 }
